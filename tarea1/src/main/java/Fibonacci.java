@@ -1,5 +1,5 @@
-public class Fibonacci {
-    public int getFibo(int n){
+class Fibonacci {
+    static int getFibo(int n){
         if (n == 0 || n == 1)
             return 1;
         else
